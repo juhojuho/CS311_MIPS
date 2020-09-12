@@ -1,0 +1,30 @@
+ADDIU       9       rs  rt  imm
+ADDU        0       rs  rs  rd  0       0x21
+
+AND         0       rs  rt  rd  0       0x24
+ANDI        0xC     rs  rt  imm
+
+BEQ         4       rs  rt  offset
+BNE         5       rs  rt  offset
+
+J           2       target
+JAL         3       target
+JR          0       rs  0               8
+
+LUI         0xF     0   rt  immediate
+LW          0x23    rs  rt  offset
+LA          pseudo-instruction
+
+NOR         0       rs  rt  rd  0       0x27
+OR          0       rs  rt  rd  0       0x25
+ORI         0xD     rs  rt  imm
+
+SLTIU       0xB     rs  rt  imm
+SLTU        0       rs  rt  rd  0       0x2B
+
+SLL         0       rs  rt  rd  shamt   0
+SRL         0       rs  rt  rd  shamt   2
+
+SW          0x2B    rs  rt  offset
+
+SUBU        0       rs  rt  rd  0       0x23

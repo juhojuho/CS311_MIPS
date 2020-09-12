@@ -1,0 +1,29 @@
+OUTPUT
+------
+
+- word size: 32-bit
+
+- first two words:
+    * size of text section
+    * size of data section
+
+- text section
+    * binary instructions
+    * the length must be equal to the specified text section length
+
+- data section
+    * initial values of variables
+
+
+
+EXAMPLE
+-------
+
+<text section size>
+<data section size>
+<instruction 1>
+    ...
+<instruction n>
+<value 1>
+    ...
+<value n>

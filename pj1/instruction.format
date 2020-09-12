@@ -1,0 +1,30 @@
+ADDIU       add integer and register unsigned
+ADDU        add two unsigend register
+
+AND         & bit operation
+ANDI        & bit operation with integer
+
+BEQ         branch equal
+BNE         branch not equal
+
+J           jump to relative address
+JAL         jump to the subroutine saving the next PC to $ra
+JR          jump back to $ra
+
+LUI         load unsinged integer
+LW          load word
+LA          load address
+
+NOR         ~ (A | B) bit operation
+OR          | bit operation
+ORI         | bit operation with integer
+
+SLTIU       set less than immediate unsigned
+SLTU        set less than unsigned
+
+SLL         shift left logical
+SRL         shift right logical
+
+SW          save word
+
+SUBU        subtract two usinged register
